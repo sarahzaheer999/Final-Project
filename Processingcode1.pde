@@ -1,6 +1,7 @@
-
-
 import processing.serial.*;
+import processing.sound.*;
+SoundFile file;
+
 
 // The serial port:
 Serial myPort;   
@@ -26,9 +27,11 @@ void setup() {
 printArray(Serial.list());
   myPort = new Serial(this, "/dev/cu.Bluetooth-Incoming-Port", 9600);
   size(400, 400);
-
- 
   background (255);
+  
+ 
+  file=new SoundFile(this,"Sound 4.mp3");
+ 
 }
 void draw() {
   //rect(rx1, ry1, sizeW, sizeH, 7);
@@ -50,7 +53,7 @@ void mousePressed() {
       // Send a capital A out the serial port:
       println("Sending a");
       myPort.write("a");
-
+ file.play();
     }
     
      if (boxes[1].x <= mouseX && mouseX <= boxes[1].x + boxes[1].w && boxes[1].y <= mouseY && mouseY <= boxes[1].y + boxes[1].h) {
@@ -59,6 +62,7 @@ void mousePressed() {
       boxes[1].b =255;
        println("Sending b");
       myPort.write("b");
+       file.play();
     }
      
        if (boxes[2].x <= mouseX && mouseX <= boxes[2].x + boxes[2].w && boxes[2].y <= mouseY && mouseY <= boxes[2].y + boxes[2].h) {
@@ -67,6 +71,7 @@ void mousePressed() {
       boxes[2].b =0;
        println("Sending c");
       myPort.write("c");
+       file.play();
       
     }
     
@@ -76,6 +81,7 @@ void mousePressed() {
       boxes[3].b =0;
       println("Sending d");
       myPort.write("d");
+       file.play();
       
     }
     
