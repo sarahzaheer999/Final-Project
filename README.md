@@ -11,7 +11,7 @@ This would include four black boxes, and when a user selects any of the four box
 
 #Component Parts:This “Disco Chords” project has the following components:-
 
-Hardware 
+Hardware
 Arduino Neopixel Lights:-
 1)Arduino Uno
 2)Usb C Cable
