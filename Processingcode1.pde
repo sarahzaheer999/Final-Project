@@ -25,7 +25,7 @@ Box[] boxes ={
 void setup() {
   // List all the available serial ports:
 printArray(Serial.list());
-  myPort = new Serial(this, "/dev/cu.Bluetooth-Incoming-Port", 9600);
+  myPort = new Serial(this, "/dev/cu.usbmodem14301", 9600);
   size(400, 400);
   background (255);
   
@@ -54,6 +54,8 @@ void mousePressed() {
       println("Sending a");
       myPort.write("a");
  file.play();
+ 
+
     }
     
      if (boxes[1].x <= mouseX && mouseX <= boxes[1].x + boxes[1].w && boxes[1].y <= mouseY && mouseY <= boxes[1].y + boxes[1].h) {
