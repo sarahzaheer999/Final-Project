@@ -25,7 +25,7 @@ Box[] boxes ={
 void setup() {
   // List all the available serial ports:
 printArray(Serial.list());
-  myPort = new Serial(this, "/dev/tty.usbmodem14101", 9600);
+  myPort = new Serial(this, "/dev/tty.usbmodem14301", 9600);
   size(400, 400);
   background (255);
   
