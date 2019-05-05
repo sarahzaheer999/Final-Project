@@ -25,7 +25,7 @@ Box[] boxes ={
 void setup() {
   // List all the available serial ports:
 printArray(Serial.list());
-  myPort = new Serial(this, "/dev/cu.usbmodem14301", 9600);
+  myPort = new Serial(this, "/dev/tty.usbmodem14101", 9600);
   size(400, 400);
   background (255);
   
@@ -55,6 +55,11 @@ void mousePressed() {
       myPort.write("a");
  file.play();
  
+ }else{
+     boxes[0].r = 0;
+      boxes[0].g = 0;
+      boxes[0].b =0;
+ 
 
     }
     
@@ -65,6 +70,12 @@ void mousePressed() {
        println("Sending b");
       myPort.write("b");
        file.play();
+       
+}else{
+     boxes[1].r = 0;
+      boxes[1].g = 0;
+      boxes[1].b =0;
+
     }
      
        if (boxes[2].x <= mouseX && mouseX <= boxes[2].x + boxes[2].w && boxes[2].y <= mouseY && mouseY <= boxes[2].y + boxes[2].h) {
@@ -74,6 +85,11 @@ void mousePressed() {
        println("Sending c");
       myPort.write("c");
        file.play();
+       
+       }else{
+     boxes[2].r = 0;
+      boxes[2].g = 0;
+      boxes[2].b =0;
       
     }
     
@@ -84,6 +100,11 @@ void mousePressed() {
       println("Sending d");
       myPort.write("d");
        file.play();
+       
+       }else{
+     boxes[3].r = 0;
+      boxes[3].g = 0;
+      boxes[3].b =0;
       
     }
     
