@@ -55,9 +55,9 @@ Code,Audio and Video Attached.
 
 ## References and links
 
-Hybrid Lab Neopixel Light Tutorial
-Daniel Shiffman Tutorials 
-Processing.org References 
+* Hybrid Lab Neopixel Light Tutorial
+* Daniel Shiffman Tutorials 
+* Processing.org References 
 
 
 
