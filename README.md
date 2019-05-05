@@ -33,9 +33,13 @@ Output Data: Through neopixel light and Arduino hardware to light it up, the scr
 
 Timeline
 Week 0: Write Proposal
+
 Week 1:Coded the Processing code of the black colors that change color when pressed.
+
 Week 2:Coded the Arduino code for neopixel lights adding serial numbers along with setting up the Arduino hardware. 
+
 Week 3:Added sound and moved Arduino into processing connecting the Arduino software,the Arduino hardware and processing.
+
 Week 4: Present!
 
 Challenges
