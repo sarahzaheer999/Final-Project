@@ -7,7 +7,7 @@ class Box {
   int y=0;
   int w;
   int h;
-  int gap=20;
+  int gap=25;
 
   Box(int x, int y, int w, int h, int r, int g, int b) {
     this.x =x;
