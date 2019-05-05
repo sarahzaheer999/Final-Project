@@ -1,6 +1,4 @@
 
-/* A simple program to sequentially turn on and turn off 3 LEDs */
-
 #include <Adafruit_NeoPixel.h>
 #define PIN            6
 #define NUMPIXELS      8
@@ -92,16 +90,7 @@ void loop() {
     }
   }
 
-  if (c == 'e') {
-    //digitalWrite(LED1, LOW);
-    for (int i = 0; i < NUMPIXELS; i++) {
 
-      // pixels.Color takes RGB values, from 0,0,0 up to 255,255,255
-      pixels.setPixelColor(i, pixels.Color(0, 0, 0)); // Moderately bright green color.
-      pixels.show(); // This sends the updated pixel color to the hardware.
-      delay(delayval); // Delay for a period of time (in milliseconds).
-
-    }
   }
 
   
@@ -127,5 +116,3 @@ void loop() {
     digitalWrite(LED3, LOW);     // turn off LED3
     delay(300);                  // wait for 300ms before running program all over again
   */
-
-}
