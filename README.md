@@ -1,9 +1,9 @@
 # Final-Project Brief 
 
-* **DISCO CHORDS**
+## DISCO CHORDS
 A way in which a user can generate color, light, and music just by pressing the various chords on the screen.
 
-**## Summary
+## Summary
 * This project is your own home based disco wherein a user can:-
 1)Make music by selecting different colors and along with this,
 2)Generate different colored lights
@@ -11,7 +11,7 @@ A way in which a user can generate color, light, and music just by pressing the 
 
 This would include four black boxes, and when a user selects any of the four boxes it would not only change the color of that box in red, blue, yellow or green, and generate music but also light up the neopixel light in that particular color. Thus, helping the user get a home-based disco experience and helping them interact with the various components on it.
 
-**## Component Parts
+## Component Parts
 * This “Disco Chords” project has the following components:-
 
 * Hardware
@@ -30,7 +30,7 @@ Processing
 * Output Data: Through neopixel light and Arduino hardware to light it up, the screen on processing to color the boxes and the speakers of the computer to generate sound.
 
 
-**## Timeline
+## Timeline
 
 * Week 0: Write Proposal
 
@@ -42,18 +42,18 @@ Processing
 
 * Week 4: Present!
 
-**## Challenges
+## Challenges
 
 * Not having done programming before at first this project seemed impossible to me but nevertheless, I challenged myself and with the constant help of my professor and a few tutorials I was able to make it happen.
 What I found unexpectedly challenging was using processing that even though is very similar to p5 is still different. With that, making sure that only one box would light up while others remained black seemed hard.
 Also, I found myself connecting the wrong hardware Arduino to my processing file because of which it would not light up.
 I also had to be careful what where to put which wire while doing the set up of the hardware of neopixel lights.
 
-**## Completed Work
+## Completed Work
 
 Code,Audio and Video Attached.
 
-**## References and links
+## References and links
 
 Hybrid Lab Neopixel Light Tutorial
 Daniel Shiffman Tutorials 
